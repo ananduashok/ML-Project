@@ -1,9 +1,13 @@
 ---
 
 **Assignment 1**: assignment-1.ipynb, Dataset: house_price.csv
+
 **Assignment 2**: assignment-2.ipynb, Dataset: Employee.csv
+
 **Assignment 3**: assignment-3.ipynb, Dataset: California Housing dataset available in the sklearn library, Note: assignment-3-note.txt
+
 **Assignment 4**: assignment-4.ipynb, Dataset: Breast cancer dataset available in the sklearn library, Note: assignment-4-note.txt
+
 **Assignment 5**: assignment-5.ipynb, Dataset: Iris dataset available in the sklearn library, Note: assignment-5-note.txt
 
 **Project**: Project-ML.ipynb, Dataset: CarPrice_Assignment.csv, Note: README.md
