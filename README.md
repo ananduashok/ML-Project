@@ -251,4 +251,4 @@ plt.show()
 
 ## Conclusion
 
-This project demonstrates how to build and evaluate regression models to predict car prices based on various features. The Random Forest Regressor was identified as the best performing model, and hyper
+This project demonstrates how to build and evaluate regression models to predict car prices based on various features. The Random Forest Regressor was identified as the best performing model.
