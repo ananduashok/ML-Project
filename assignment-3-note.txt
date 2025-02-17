@@ -1,0 +1,46 @@
+# ML Assignment 3: Regression
+
+## Objective
+The objective of this assignment is to evaluate regression techniques in supervised learning by applying them to a real-world dataset. The assignment involves implementing multiple regression models, comparing their performance, and analyzing the results.
+
+## Dataset
+The California Housing dataset from the `sklearn` library is used for this assignment. This dataset contains information about various housing features in California and their respective median prices.
+
+## Key Components
+
+### 1. Loading and Preprocessing
+- The dataset is loaded using the `fetch_california_housing` function from `sklearn`.
+- Converted into a pandas DataFrame for easier handling.
+- Checked for missing values and performed necessary feature scaling using `StandardScaler`.
+- The dataset is split into training and testing sets (80% training, 20% testing).
+
+### 2. Regression Algorithms Implemented
+The following regression models were implemented:
+1. **Linear Regression** - A simple model assuming a linear relationship between independent and dependent variables.
+2. **Decision Tree Regressor** - A tree-based model that splits the data based on feature conditions.
+3. **Random Forest Regressor** - An ensemble model that uses multiple decision trees for improved performance.
+4. **Gradient Boosting Regressor** - A boosting technique that sequentially improves weak models.
+5. **Support Vector Regressor (SVR)** - Uses support vector machines for regression tasks.
+
+Each model was trained and tested on the dataset.
+
+### 3. Model Evaluation
+Each model was evaluated using the following metrics:
+- **Mean Squared Error (MSE)**: Measures the average squared difference between actual and predicted values.
+- **Mean Absolute Error (MAE)**: Measures the average absolute difference between actual and predicted values.
+- **R-squared Score (R²)**: Indicates how well the independent variables explain the variability of the dependent variable.
+
+### 4. Results and Comparison
+- The performance of all models is compared based on evaluation metrics.
+- A bar plot visualization is used to compare the R² scores of different models.
+- The best-performing and worst-performing models are identified with justifications.
+
+## How to Run the Code
+1. Install necessary libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `sklearn`.
+2. Run the script in a Jupyter Notebook or Python environment.
+3. The results, including evaluation metrics and visualizations, will be displayed.
+
+## Conclusion
+This assignment provided insights into different regression techniques and their effectiveness in predicting house prices. The best model was identified based on evaluation metrics, offering a deeper understanding of regression analysis.
+
+

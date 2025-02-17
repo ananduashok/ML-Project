@@ -1,0 +1,36 @@
+# ML Assignment 5: Clustering Algorithm - Explanation
+
+## Objective
+The goal of this assignment is to apply clustering techniques to the **Iris dataset** and analyze how different clustering methods group the data points. Two clustering methods—**KMeans Clustering** and **Hierarchical Clustering**—are implemented and compared.
+
+## Dataset
+The **Iris dataset** from `sklearn.datasets` is used. It contains numerical features representing measurements of iris flowers. Since this is a clustering problem, the **species column is dropped**, and the focus is on grouping similar data points.
+
+## Key Steps in the Notebook
+
+### 1. Data Loading & Preprocessing
+- The dataset is loaded using `load_iris()` from `sklearn`.
+- The feature columns are stored in a Pandas DataFrame.
+- Basic information and summary statistics are displayed to understand data distribution.
+- **StandardScaler** is applied to normalize the data, improving clustering efficiency.
+
+### 2. KMeans Clustering
+- **KMeans Clustering** is applied to group data into three clusters.
+- A **scatter plot** visualizes the clusters based on two principal features.
+
+#### Why KMeans?
+- KMeans is efficient for numerical data like the Iris dataset.
+- It minimizes intra-cluster variance, making it a suitable choice for well-separated clusters.
+
+### 3. Hierarchical Clustering
+- **Agglomerative Hierarchical Clustering** is applied.
+- A **dendrogram** is plotted to visualize the clustering hierarchy.
+
+#### Why Hierarchical Clustering?
+- Hierarchical clustering helps visualize relationships among data points.
+- It does not require specifying the number of clusters in advance.
+
+### 4. Visualization & Conclusion
+- Both **KMeans and Hierarchical clustering** results are compared visually.
+- The dendrogram provides insights into how data points are merged into clusters.
+- The clustering results help analyze **how well the models separate different iris species.**
